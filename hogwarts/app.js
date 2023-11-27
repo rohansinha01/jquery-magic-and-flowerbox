@@ -28,4 +28,32 @@ const $wand = $('<h4>')
 $container.append($wand)
 $wand.text('Hawthorn Wand with Dragon Heartstring Core')
 
+const $items = $('<ul>')
+$container.append($items)
+$items.attr("storage", 'trunk')
+
+const $bbeer = $('<li>')
+$items.append($bbeer)
+$bbeer.text('butter beer')
+
+const $cloak = $('<li>')
+$items.append($cloak)
+$cloak.text('invisibility cloak')
+$cloak.addClass('secret')
+
+const $map = $('<li>')
+$items.append($map)
+$map.text('magic map')
+$map.addClass('secret')
+
+const $clock = $('<li>')
+$items.append($clock)
+$clock.text('time turner')
+$clock.addClass('secret')
+
+const $owl = $('<li>')
+$items.append($owl)
+$owl.text('leash')
+$owl.addClass('owl')
+
 });
