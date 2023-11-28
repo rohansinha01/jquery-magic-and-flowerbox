@@ -139,4 +139,11 @@ $pet.remove()
 $semester.before($pet)
 $pet.remove()
 $wand.before($pet)
+
+$('.secret').hide('slow').delay(2000)
+$('.secret').show('slow')
+
+$owl.addClass('cabbage')
+$owl.removeClass('cabbage')
+
 });
