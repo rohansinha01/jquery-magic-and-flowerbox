@@ -146,4 +146,12 @@ $('.secret').show('slow')
 $owl.addClass('cabbage')
 $owl.removeClass('cabbage')
 
+$semester.text('Fall 2018')
+const $ButtBeer = $('<li>')
+$items.prepend($ButtBeer)
+$ButtBeer.text('Butter Beer')
+
+$items.attr("storage", 'chest')
+
+
 });
