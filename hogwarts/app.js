@@ -56,4 +56,77 @@ $items.append($owl)
 $owl.text('leash')
 $owl.addClass('owl')
 
+const $semester = $('<h5>')
+$container.append($semester)
+$semester.text('Spring 2017')
+
+const $classes = $('<table>')
+$container.append($classes)
+
+const $thead = $('<thead>')
+$classes.append($thead)
+
+const $th1 = $('<th>')
+$thead.append($th1)
+$th1.text('Days') 
+
+const $th2 = $('<th>')
+$thead.append($th2)
+$th2.text('Classes') 
+
+const $tr1 = $('<tr>')
+$classes.append($tr1)
+
+const $td1 = $('<td>')
+$tr1.append($td1)
+$td1.text('Monday')
+
+const $td2 = $('<td>')
+$tr1.append($td2)
+$td2.text('Herbology, Divination')
+
+const $tr2 = $('<tr>')
+$classes.append($tr2)
+
+const $td3 = $('<td>')
+$tr2.append($td3)
+$td3.text('Tuesday')
+
+const $td4 = $('<td>')
+$tr2.append($td4)
+$td4.text('History of Magic, Charms')
+
+const $tr3 = $('<tr>')
+$classes.append($tr3)
+
+const $td5 = $('<td>')
+$tr3.append($td5)
+$td5.text('Wednesday')
+
+const $td6 = $('<td>')
+$tr3.append($td6)
+$td6.text('Potions, Transfiguration')
+
+const $tr4 = $('<tr>')
+$classes.append($tr4)
+
+const $td7 = $('<td>')
+$tr4.append($td7)
+$td7.text('Thursday')
+
+const $td8 = $('<td>')
+$tr4.append($td8)
+$td8.text('Defense Against the Dark Arts, Quidditch practice')
+
+const $tr5 = $('<tr>')
+$classes.append($tr5)
+
+const $td9 = $('<td>')
+$tr5.append($td9)
+$td9.text('Friday')
+
+const $td10 = $('<td>')
+$tr5.append($td10)
+$td10.text('Javascript')
+
 });
