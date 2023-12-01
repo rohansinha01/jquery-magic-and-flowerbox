@@ -1,0 +1,122 @@
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.row1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.row2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.row3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.span {
+    display: flex;
+   
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.four {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.five {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.six {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.seven {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.eight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.topline {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#tags {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.socialmedia {
+   display: flex;
+   flex-direction: row;
+}
+
+.flower {
+    display: block;
+    position: relative;
+    text-align: right;
+    margin: 80px
+    
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    translate: -45px -200px;
+
+}
