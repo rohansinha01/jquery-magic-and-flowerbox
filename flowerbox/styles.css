@@ -1,6 +1,7 @@
 
 body {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-content: space-evenly;
     background-color: whitesmoke;
@@ -11,7 +12,6 @@ body {
 }
 .products {
     margin: -20px;
-    margin-top: -125px;
     margin-bottom: 10px;
 }
 header {
@@ -29,7 +29,6 @@ header {
     background-color: whitesmoke;
     align-content: center;
     padding: 10px;
-    flex-grow: 0;
 }
 .row1, .row2, .row3 {
     display: flex;
@@ -56,7 +55,7 @@ header {
 
 #tags {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     padding: 10px;
     gap: 10px;
     margin-bottom:10px;
@@ -65,24 +64,29 @@ header {
 
 footer {
     display: flex;
-    align-content: center;
     background-color:  #eeeeee;
-    padding: 60px;
-    
-
+    height: 300px;
+    padding: 100px
 }
 
 .socialmedia {
    display: flex;
    flex-direction: row;
-
+   color: #92b2ba;
 }
 
 .bottomleft {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    align-content: flex-end;
     align-items: center;
+    justify-content: space-around;
+    flex-grow: .3;
+    padding-left: 100px;
+    color: #f0a8bb;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 .company {
@@ -95,8 +99,18 @@ footer {
     color: #92b2ba;
 }
 
+.tagline {
+    display: flex;
+    background-color: white;
+    padding: .5em;
+    color: #f0a8bb;
+    font-size: smaller;
+    margin-right:100px;
+    text-size-adjust: 40%;
+    translate: 50px
+}
+
 .bottommiddle, .bottomright {
-    font-family: 'DM Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: column;
@@ -120,4 +134,22 @@ footer {
 
 .title {
     color: #92b2ba
+}
+
+.flower {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-end;
+    translate: -90px -350px;
+}
+
+.bottomright {
+    display: flex;
+    grow: .33;
 }
